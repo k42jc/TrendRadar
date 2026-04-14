@@ -41,7 +41,7 @@ app:
 # ===============================================================
 schedule:
   enabled: true                         # 是否启用调度系统
-  preset: "morning_evening"             # 预设模板名称（见上方说明）
+  preset: "office_hours"             # 预设模板名称（见上方说明）
 
 
 # ===============================================================
@@ -116,6 +116,14 @@ rss:
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
+
+    - id: "bbc-news"
+      name: "BBC News"
+      url: "http://feeds.bbci.co.uk/news/rss.xml"
+    
+    - id: "tech-crunch"
+      name: "TechCrunch"
+      url: "https://techcrunch.com/feed/"
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
