@@ -226,9 +226,9 @@ presets:
 
     default:
       collect: true
-      analyze: false
+      analyze: true
       ai_mode: "current"
-      push: false                  # 默认不推送
+      push: true                  # 默认不推送
       report_mode: "current"
       once:
         analyze: true              # 每个时段只分析一次
